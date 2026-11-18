@@ -4,10 +4,9 @@ Ask for the price of one coffee and how many they want.
 Calculate and print the total cost.
 Ask for a tip amount, add it to the total, and print the final amount.*/
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class coffeeOrder {
+public class CoffeeOrder {
     public static void main (String[] args) {
 
         System.out.print("Kindly mention your name :");
@@ -37,6 +36,8 @@ public class coffeeOrder {
         Double finalPrice = billAmount + tip;
 
         System.out.println("Your final amount will be : " + finalPrice);
+
+        input.close();
     }
 }
 

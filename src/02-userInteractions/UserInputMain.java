@@ -3,10 +3,9 @@ Store a starting balance of 5000 in a variable.
 Ask how much they want to deposit, add it to the balance, and print the new balance.
 Ask how much they want to withdraw, subtract it, and print the new balance.*/
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class userInputMain {
+public class UserInputMain {
     public static void main (String[] args) {
 
         System.out.print("Kindly Enter your Name : ");
