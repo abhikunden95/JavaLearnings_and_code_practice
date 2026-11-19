@@ -1,3 +1,5 @@
+package variables;
+
 public class name_age_height {
     public static void main(String[] args) {
         byte age = 31;

@@ -4,6 +4,7 @@ Ask for the price of one coffee and how many they want.
 Calculate and print the total cost.
 Ask for a tip amount, add it to the total, and print the final amount.*/
 
+package userInteractions;
 import java.util.Scanner;
 
 public class CoffeeOrder {

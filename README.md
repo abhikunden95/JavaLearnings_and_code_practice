@@ -16,9 +16,9 @@ Hands-on Java exercises, organized by topic, as I learn the language and prepare
 ## Folder Structure
 
 ```
-01-variables/
+variables/
     VariablePractice.java
-02-operators/
+operators/
 ...
 ```
 
@@ -27,7 +27,7 @@ Hands-on Java exercises, organized by topic, as I learn the language and prepare
 Each exercise is a standalone Java file with a `main` method. From the topic folder, run:
 
 ```bash
-cd 01-variables
+cd variables
 javac VariablePractice.java
 java VariablePractice
 ```

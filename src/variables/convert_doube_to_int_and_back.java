@@ -1,3 +1,5 @@
+package variables;
+
 public class convert_doube_to_int_and_back {
     public static void main(String[] args) {
         double data = 7.3;

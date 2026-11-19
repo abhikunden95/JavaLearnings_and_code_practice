@@ -3,6 +3,7 @@ Store a starting balance of 5000 in a variable.
 Ask how much they want to deposit, add it to the balance, and print the new balance.
 Ask how much they want to withdraw, subtract it, and print the new balance.*/
 
+package userInteractions;
 import java.util.Scanner;
 
 public class UserInputMain {
