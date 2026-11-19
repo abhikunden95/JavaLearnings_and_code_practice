@@ -20,21 +20,32 @@ public class RestaurantBill {
 
         System.out.print("Kindly mention your food total: ");
 
-        System.out.print("Kindly mention your GST %: ");
-
-        System.out.print("Kindly mention your service charge %: ");
-
         double foodTotal = input.nextDouble();
+
+        System.out.print("Kindly mention your GST %: ");
 
         double gstPercentage = input.nextDouble();
 
+        System.out.print("Kindly mention your service charge %: ");
+
         double serviceChargePercentage = input.nextDouble();
 
-        double gstTotal = (foodTotal + (gstPercentage/100));
-        double serviceChargeTotal = (foodTotal + (serviceChargePercentage/100));
+        double gstTotal = (foodTotal * (gstPercentage/100));
+
+        double serviceChargeTotal = (foodTotal * (serviceChargePercentage/100));
+
         double finalBill = foodTotal + gstTotal + serviceChargeTotal;
 
+        System.out.print("The final bill is " + finalBill + " how many people would like to split this bill: ");
 
+        int people = input.nextInt();
 
+        double equalSplit = finalBill / people;
+
+        double remainderSplit = finalBill % people;
+
+        System.out.println("The equal split is " + String.format("%.2f" , equalSplit) + " remaining split is " + remainderSplit);
+
+        input.close();
     }
 }
