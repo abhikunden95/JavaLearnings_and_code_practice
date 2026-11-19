@@ -15,16 +15,16 @@ public class UserInputMain {
         String name = input.nextLine();
         System.out.println("Welcome " + name + " We are happy to see you");
 
-        Double balance = 5000.0;
+        double balance = 5000.0;
 
         System.out.print("How much would you want to deposit : ");
-        Double newbalance = input.nextDouble();
-        Double balance2 = newbalance + balance;
+        double newbalance = input.nextDouble();
+        double balance2 = newbalance + balance;
         System.out.println("The new balance is: " + balance2);
 
         System.out.print("How much would you want to withdraw : ");
-        Double newwithdraw = input.nextDouble();
-        Double balance3 = balance2 - newwithdraw;
+        double newwithdraw = input.nextDouble();
+        double balance3 = balance2 - newwithdraw;
         System.out.println("The new balance is: " + balance3);
 
         input.close();

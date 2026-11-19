@@ -24,17 +24,17 @@ public class CoffeeOrder {
 
         System.out.println("Thank you let me calculate the amount for " + count + " coffee's");
 
-        Double price = 239.5;
+        double price = 239.5;
 
-        Double billAmount = price * count;
+        double billAmount = price * count;
 
         System.out.println("Your " + count + " coffee's will cost you: " + billAmount);
 
         System.out.print("Do you want to give any tip? : ");
 
-        Double tip = input.nextDouble();
+        double tip = input.nextDouble();
 
-        Double finalPrice = billAmount + tip;
+        double finalPrice = billAmount + tip;
 
         System.out.println("Your final amount will be : " + finalPrice);
 
